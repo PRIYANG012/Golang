@@ -1,5 +1,6 @@
 # A Cards Project #
-
+![Alt text](image.png)
+![Alt text](image-1.png)
 ## overview 
     - newDeck : Cretae a list of playing cards. Essentitally an array of strings
     - print : log out the contents of a deck of cards
@@ -50,3 +51,8 @@ for i, card := range cards {
 		fmt.Println(i, card)
 	}
 ```
+
+## What does func (d deck) print() { } means?
+    - Any variable of Type deck is allowed to use the print() method
+
+![Alt text](image-2.png)
