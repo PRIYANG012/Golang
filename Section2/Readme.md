@@ -56,3 +56,6 @@ for i, card := range cards {
     - Any variable of Type deck is allowed to use the print() method
 
 ![Alt text](image-2.png)
+
+## Slicing in GO 
+![Alt text](image-3.png)

@@ -20,7 +20,9 @@ func main() {
 	// 	fmt.Println(i, card)
 	// }
 
-	cards.print()
+	hand,remainingCards:=deal(cards,5)
+	hand.print()
+	remainingCards.print()
 }
 
 func newcard() string {
