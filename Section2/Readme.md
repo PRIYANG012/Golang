@@ -59,3 +59,7 @@ for i, card := range cards {
 
 ## Slicing in GO 
 ![Alt text](image-3.png)
+
+## Type conversion 
+    - Type we want (Value we have)
+    - example : []byte("hii there")

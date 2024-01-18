@@ -1,6 +1,6 @@
 package main
 
-
+import "fmt"
 
 func main() {
 
@@ -20,9 +20,12 @@ func main() {
 	// 	fmt.Println(i, card)
 	// }
 
-	hand,remainingCards:=deal(cards,5)
-	hand.print()
-	remainingCards.print()
+	// hand,remainingCards:=deal(cards,5)
+	// hand.print()
+	// remainingCards.print()
+	fmt.Println(cards.toString())
+
+	
 }
 
 func newcard() string {
