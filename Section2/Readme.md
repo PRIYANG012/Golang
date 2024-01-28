@@ -63,3 +63,6 @@ for i, card := range cards {
 ## Type conversion 
     - Type we want (Value we have)
     - example : []byte("hii there")
+
+## Reading File in GO
+![Alt text](image-4.png)

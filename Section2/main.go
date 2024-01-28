@@ -1,6 +1,6 @@
 package main
 
-import "fmt"
+// import "fmt"
 
 func main() {
 
@@ -13,18 +13,27 @@ func main() {
 	// cards := deck{"Ace of Diamonds", newcard()}
 	// cards = append(cards, "six of Spades")
 
-	cards := newDeck()
+	// cards := newDeck()  // get a new deck
+
 	// fmt.Println(cards)
 
 	// for i, card := range cards {
 	// 	fmt.Println(i, card)
 	// }
 
-	// hand,remainingCards:=deal(cards,5)
+
+	// hand,remainingCards:=deal(cards,5)  // divining the deck after dealing
 	// hand.print()
 	// remainingCards.print()
-	fmt.Println(cards.toString())
 
+	// fmt.Println(cards.toString()) //coverting deck to single string
+
+
+
+	// cards.saveToFile("My_cards_File")   //saving to file 
+
+	cards:=newDeckFromFile("My_cards_File")
+	cards.print()
 	
 }
 
