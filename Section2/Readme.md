@@ -66,3 +66,9 @@ for i, card := range cards {
 
 ## Reading File in GO
 ![Alt text](image-4.png)
+
+## To enable testing 
+    - make sure to use this command first 
+    - command : go mod init section2
+    - use go test to test the tesing files 
+    - name of the file should contains _test.go in there name and import testing in them 
