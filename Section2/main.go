@@ -33,6 +33,7 @@ func main() {
 	// cards.saveToFile("My_cards_File")   //saving to file 
 
 	cards:=newDeckFromFile("My_cards_File")
+	cards.shuffle()
 	cards.print()
 	
 }
